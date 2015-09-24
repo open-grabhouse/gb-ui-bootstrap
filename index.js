@@ -2625,7 +2625,7 @@ angular.module("template/typeahead/typeahead-popup.html", []).run(["$templateCac
     "    <li ng-repeat=\"match in matches track by $index\" ng-class=\"{active: isActive($index) }\" ng-mouseenter=\"selectActive($index)\" ng-click=\"selectMatch($index)\" role=\"option\" id=\"{{match.id}}\">\n" +
     "        <div typeahead-match index=\"$index\" match=\"match\" query=\"query\" template-url=\"templateUrl\"></div>\n" +
     "   </li>" +
-    "   <li class="li-seeker-profile">Tired of searching? <a data-ng-controller="navCtrl" data-ng-click="postYourRequirement()">Post your requirement</a>\n" +
+    "   <li class=\"li-seeker-profile\">Tired of searching? <a data-ng-controller=\"navCtrl\" data-ng-click=\"postYourRequirement()\">Post your requirement</a>\n" +
     "   </li>\n" +
     "</ul>\n" +
     "");
